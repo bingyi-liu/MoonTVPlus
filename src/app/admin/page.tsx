@@ -8625,6 +8625,9 @@ const SiteConfigComponent = ({
           TMDB 配置
         </summary>
         <div className='mt-4 space-y-4'>
+          <p className='text-xs text-amber-600 dark:text-amber-400'>
+            由于国内网络环境限制，TMDB 服务通常需要配置代理后才能正常使用。
+          </p>
           {/* TMDB API Key */}
           <div>
             <label className='block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2'>
@@ -8706,6 +8709,9 @@ const SiteConfigComponent = ({
           磁链配置
         </summary>
         <div className='mt-4 space-y-4'>
+          <p className='text-xs text-amber-600 dark:text-amber-400'>
+            由于国内网络环境限制，部分磁链搜索站点通常需要配置代理后才能正常访问。
+          </p>
           <div>
             <label className='block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2'>
               系统代理
